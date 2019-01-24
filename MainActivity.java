@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                     else {
 
                         reset.setBackgroundColor( Color.CYAN );
-                        
+
 
                     }
                 }
@@ -183,6 +183,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 reset.setBackgroundResource( android.R.drawable.btn_default );
+                btn2.setEnabled( false );
+                btn.setEnabled( false );
+                btn3.setEnabled( false );
+                btn4.setEnabled( false );
                 arrayList.clear();
                 isRecordMode = true;
             }

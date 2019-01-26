@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     if (arrayList.get( count ).equals( 1 )) count++;
                     else {
-                        reset.setBackgroundColor( Color.CYAN );
+                        reset.setBackgroundColor( Color.WHITE );
                     }
                 }
 
